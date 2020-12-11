@@ -1,0 +1,91 @@
+20/10/25 01:50:45 INFO client.RMProxy: Connecting to ResourceManager at hadoop-cluster-m/10.138.0.2:8032
+20/10/25 01:50:46 INFO client.AHSProxy: Connecting to Application History server at hadoop-cluster-m/10.138.0.2:10200
+20/10/25 01:50:46 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+20/10/25 01:50:47 INFO input.FileInputFormat: Total input files to process : 5
+20/10/25 01:50:47 INFO mapreduce.JobSubmitter: number of splits:5
+20/10/25 01:50:47 INFO Configuration.deprecation: yarn.resourcemanager.system-metrics-publisher.enabled is deprecated. Instead, use yarn.system-metrics-publisher.enabled
+20/10/25 01:50:47 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1603589663507_0001
+20/10/25 01:50:48 INFO impl.YarnClientImpl: Submitted application application_1603589663507_0001
+20/10/25 01:50:48 INFO mapreduce.Job: The url to track the job: http://hadoop-cluster-m:8088/proxy/application_1603589663507_0001/
+20/10/25 01:50:48 INFO mapreduce.Job: Running job: job_1603589663507_0001
+20/10/25 01:50:56 INFO mapreduce.Job: Job job_1603589663507_0001 running in uber mode : false
+20/10/25 01:50:56 INFO mapreduce.Job:  map 0% reduce 0%
+20/10/25 01:51:07 INFO mapreduce.Job:  map 20% reduce 0%
+20/10/25 01:51:18 INFO mapreduce.Job:  map 73% reduce 0%
+20/10/25 01:51:42 INFO mapreduce.Job:  map 83% reduce 0%
+20/10/25 01:51:43 INFO mapreduce.Job:  map 84% reduce 0%
+20/10/25 01:51:45 INFO mapreduce.Job:  map 86% reduce 0%
+20/10/25 01:51:46 INFO mapreduce.Job:  map 93% reduce 0%
+20/10/25 01:51:48 INFO mapreduce.Job:  map 97% reduce 0%
+20/10/25 01:51:50 INFO mapreduce.Job:  map 100% reduce 0%
+20/10/25 01:52:06 INFO mapreduce.Job:  map 100% reduce 9%
+20/10/25 01:52:07 INFO mapreduce.Job:  map 100% reduce 18%
+20/10/25 01:52:08 INFO mapreduce.Job:  map 100% reduce 36%
+20/10/25 01:52:11 INFO mapreduce.Job:  map 100% reduce 64%
+20/10/25 01:52:12 INFO mapreduce.Job:  map 100% reduce 73%
+20/10/25 01:52:13 INFO mapreduce.Job:  map 100% reduce 100%
+20/10/25 01:52:14 INFO mapreduce.Job: Job job_1603589663507_0001 completed successfully
+20/10/25 01:52:14 INFO mapreduce.Job: Counters: 56
+	File System Counters
+		FILE: Number of bytes read=1485278185
+		FILE: Number of bytes written=2257297596
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		GS: Number of bytes read=186979991
+		GS: Number of bytes written=176532609
+		GS: Number of read operations=0
+		GS: Number of large read operations=0
+		GS: Number of write operations=0
+		HDFS: Number of bytes read=700
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=5
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+	Job Counters 
+		Killed map tasks=2
+		Killed reduce tasks=1
+		Launched map tasks=7
+		Launched reduce tasks=12
+		Rack-local map tasks=7
+		Total time spent by all maps in occupied slots (ms)=737127
+		Total time spent by all reduces in occupied slots (ms)=562320
+		Total time spent by all map tasks (ms)=245709
+		Total time spent by all reduce tasks (ms)=187440
+		Total vcore-milliseconds taken by all map tasks=245709
+		Total vcore-milliseconds taken by all reduce tasks=187440
+		Total megabyte-milliseconds taken by all map tasks=754818048
+		Total megabyte-milliseconds taken by all reduce tasks=575815680
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=31158073
+		Map output bytes=706499145
+		Map output materialized bytes=768815621
+		Input split bytes=700
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5161809
+		Reduce shuffle bytes=768815621
+		Reduce input records=31158073
+		Reduce output records=5161809
+		Spilled Records=91348392
+		Shuffled Maps =55
+		Failed Shuffles=0
+		Merged Map outputs=55
+		GC time elapsed (ms)=9520
+		CPU time spent (ms)=273580
+		Physical memory (bytes) snapshot=12945297408
+		Virtual memory (bytes) snapshot=69984968704
+		Total committed heap usage (bytes)=12438732800
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=186979991
+	File Output Format Counters 
+		Bytes Written=176532609
+Job output is complete
